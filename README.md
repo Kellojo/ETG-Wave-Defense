@@ -8,7 +8,7 @@ Defend yourself against incoming waves of enemies. Upgrade your equipment and yo
 
 Basically a COOP mission for you and three friends.
 
-##Features:
+## Features:
 - Money system (each kill and every passed wave rewards you with spendable money)
 - Upgradeable base (over 15 upgrades are available, including walls, automatic turrets, better weaponry and more)
 - Buyable perks (4 perks available)
@@ -18,10 +18,10 @@ Basically a COOP mission for you and three friends.
 - Hidden weapon stashes?
 
 
-##Hotkeys:
+## Hotkeys:
 - Earplugs ("shift" + "insert")
 - Viewdistance ("insert" / "delete")
 
-##Mission Parameters/Settings:
+## Mission Parameters/Settings:
 - You can change the Weather tickets and time of the day 
 - This can be achived by clicking on "parameters" while in the lobby (only the host can do this)

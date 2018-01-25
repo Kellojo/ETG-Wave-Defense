@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ETG Wave Defense">
+	<Package name="Global">
+		<Key ID="STR_WaveStart">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Wave %1 is starting&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Welle %1 startet&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_WaveEnd">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Wave %1 is over&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You have revieved %2 as a reward.&lt;br/&gt;Wave %3 is going to start soon.&lt;br/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Welle %1 geschafft&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Glückwunsch!&lt;br/&gt;Du hast %2 als Belohnung bekommen.&lt;br/&gt;Welle %3 startet bald.&lt;br/&gt;</German>
+		</Key>
+		<Key ID="STR_Tickets">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;You have %1 Tickets left.&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Du hast noch %1 Tickets.&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;</German>
+		</Key>
+		
+		<Key ID="STR_AirSupportTerminal">
+			<Original>Radar Station</Original>
+			<German>Radar Station</German>
+		</Key>
+		<Key ID="STR_UpgradeTerminal">
+			<Original>Upgrade Terminal</Original>
+			<German>Ausbau Terminal</German>
+		</Key>
+		<Key ID="STR_PerkTerminal">
+			<Original>Perk Terminal</Original>
+			<German>Perk Terminal</German>
+		</Key>
+		<Key ID="STR_Arsenal">
+			<Original>Arsenal</Original>
+			<German>Arsenal</German>
+		</Key>
+		<Key ID="STR_VehicleScrapper">
+			<Original>Vehicle Dealer</Original>
+			<German>Fahrzeughändler</German>
+		</Key>
+	</Package>
+	
+	<Package name="Actions">
+		<Key ID="STR_Action_UpgradeTerminal">
+			<Original>&lt;t color='#4DB0E2'&gt;-Upgrade Terminal-&lt;/t&gt;</Original>
+			<German>&lt;t color='#4DB0E2'&gt;-Upgrade Terminal-&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_Action_PerkTerminal">
+			<Original>&lt;t color='#4DB0E2'&gt;-Perk Terminal-&lt;/t&gt;</Original>
+			<German>&lt;t color='#4DB0E2'&gt;-Perk Terminal-&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_Action_RadarStation">
+			<Original>&lt;t color='#4DB0E2'&gt;-Radar Station-&lt;/t&gt;</Original>
+			<German>&lt;t color='#4DB0E2'&gt;-Radar Station-&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_Action_VehicleScrapper">
+			<Original>&lt;t color='#4DB0E2'&gt;-Sell Vehicle-&lt;/t&gt;</Original>
+			<German>&lt;t color='#4DB0E2'&gt;-Fahrzeug verkaufen-&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_Action_Highscoore">
+			<Original>&lt;t color='#FFD000'&gt;-Show Highscore-&lt;/t&gt;</Original>
+			<German>&lt;t color='#FFD000'&gt;-Zeige Highscore-&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_Action_LoadLoadout">
+			<Original>&lt;t color='#4DB0E2'&gt;-Load Loadout-&lt;/t&gt;</Original>
+			<German>&lt;t color='#4DB0E2'&gt;-Loadout laden-&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_Action_SetLoadout">
+			<Original>&lt;t color='#4DB0E2'&gt;-Set Loadout-&lt;/t&gt;</Original>
+			<German>&lt;t color='#4DB0E2'&gt;-Loadout speichern-&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_Action_AddItems">
+			<Original>&lt;t color='#4DB0E2'&gt;-Add Items manually-&lt;/t&gt;</Original>
+			<German>&lt;t color='#4DB0E2'&gt;-Gegenstände manuell hinzufügen-&lt;/t&gt;</German>
+		</Key>
+	</Package>
+	
+	<Package name="UpgradeTitles">
+		<Key ID="STR_UpgradeTitles_UpgradeTerminal">
+			<Original>Upgrade Terminal</Original>
+			<German>Ausbau Terminal</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Arsenalu">
+			<Original>Arsenal Unlock</Original>
+			<German>Arsenal Freischalten</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Arsenal1">
+			<Original>Arsenal Tier 1</Original>
+			<German>Arsenal Stufe 1</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Arsenal2">
+			<Original>Arsenal Tier 2</Original>
+			<German>Arsenal Stufe 2</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Arsenal3">
+			<Original>Arsenal Tier 3</Original>
+			<German>Arsenal Stufe 3</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Arsenal4">
+			<Original>Arsenal Tier 4</Original>
+			<German>Arsenal Stufe 4</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_ArsenalSniper">
+			<Original>Arsenal (Sniper)</Original>
+			<German>Arsenal (Sniper)</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_ArsenalMG">
+			<Original>Arsenal (MG)</Original>
+			<German>Arsenal (MG)</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_ArsenalSO">
+			<Original>Arsenal (Spec Ops)</Original>
+			<German>Arsenal (Spec Ops)</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Wallv1">
+			<Original>Build Walls v. 1</Original>
+			<German>Leichte Mauern errichten</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Wallv2">
+			<Original>Upgrade Walls to v. 2</Original>
+			<German>Mauern verstärken</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Wallv3">
+			<Original>Build Roof Protection</Original>
+			<German>Dachbefestigung errichten</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Wallv4">
+			<Original>Build Lighthouse Roof Protection</Original>
+			<German>Dachbefestigung errichten</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Wallv5">
+			<Original>Build Medium Tower</Original>
+			<German>Aussichtsturm errichten</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_AirU">
+			<Original>Build Radar Station</Original>
+			<German>Radar Station errichten</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_PerkU">
+			<Original>Build Perk Terminal</Original>
+			<German>Perk Terminal errichten</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Turret1">
+			<Original>Build .50 cal Turrets</Original>
+			<German>Geschütze errichten</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Turret2">
+			<Original>Build AT Turrets</Original>
+			<German>AT Geschütze errichten</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Turret3">
+			<Original>Build AA Turrets</Original>
+			<German>AA Geschütze errichten</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_TM">
+			<Original>Turret Maintenance</Original>
+			<German>Geschütze warten</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_SupplyD">
+			<Original>Supply Drop</Original>
+			<German>Versorgungsabwurf</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_StomperD">
+			<Original>Stomper Drop</Original>
+			<German>UGV Stomper Abwurf</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_UAV">
+			<Original>UAV</Original>
+			<German>Aufklärungs Drohne</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Falcon">
+			<Original>MQ-12 Falcon</Original>
+			<German>MQ-12 Falcon</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_MS">
+			<Original>Mortar Strike</Original>
+			<German>Mörser Angriff</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_AS">
+			<Original>Artillery Strike</Original>
+			<German>Artillerie Angriff</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_CAS">
+			<Original>CAS Run</Original>
+			<German>CAS</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_GS">
+			<Original>Gear Safe</Original>
+			<German>Ausrüstung speichern</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_PH">
+			<Original>Passive Heal</Original>
+			<German>Passive Heilung</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Mechanic">
+			<Original>Mechanic</Original>
+			<German>Mechaniker</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_Fatigue">
+			<Original>Fatigue</Original>
+			<German>Ausdauer</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_SD">
+			<Original>Supply Drop</Original>
+			<German>Versorgungsabwurf</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_SD">
+			<Original>Supply Drop</Original>
+			<German>Versorgungsabwurf</German>
+		</Key>
+		<Key ID="STR_UpgradeTitles_SD">
+			<Original>Supply Drop</Original>
+			<German>Versorgungsabwurf</German>
+		</Key>
+	</Package>
+	
+	<Package name="Upgrades">
+		<Key ID="STR_up_ArsenalU">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Allows you to access the Virtual Arsenal in your base.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Zugang zum virtuellen Arsenal in der Basis.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_Arsenal1">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal Tier 1&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds basic weaponry to the Arsenal.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal Stufe 1&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Fügt standard Bewaffnung hinzu.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_Arsenal2">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal Tier 2&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds even more low grade weaponry and equipment to the Arsenal.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal Stufe 2&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Fügt noch mehr standard Bewaffnung hinzu.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_Arsenal3">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal Tier 3&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds medium grade weaponry and equipment to the Arsenal.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal Stufe 3&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Fügt mittelschwere Waffen und Ausrüstung hinzu.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_Arsenal4">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal Tier 4&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds high grade weapons and equipment to the Arsenal.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal Stufe 4&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Fügt hochwertige Waffen und Ausrüstung hinzu.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_Arsenal5">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal (Sniper)&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds powerful sniper rifles to the arsenal.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal (Scharfschützen)&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Fügt schwere Scharfschützengewehre hinzu.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_Arsenal6">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal (MG)&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds powerful machine guns to the arsenal.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal (MG)&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Fügt Maschinengewehre hinzu.&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_Arsenal7">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal (Spec Ops)&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds spec ops equipment to the arsenal (Miney,Supressors,Static weapons).&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Virtual Arsenal (Spezial)&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Fügt Spezial Ausrüstung hinzu(Minen, Schalldämpfer, Statische Waffen).&lt;br/&gt;&lt;img image='Images\Upgrades\Arsenal.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_WallV1">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Walls V1&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Provides you with more protection.&lt;br/&gt;&lt;img image='Images\Upgrades\WallV1.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Wände V1&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Verschafft dir mehr Schutz.&lt;br/&gt;&lt;img image='Images\Upgrades\WallV1.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_WallV2">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Walls V2&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Provides you with even more protection.&lt;br/&gt;&lt;img image='Images\Upgrades\WallV2.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Wände V2&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Verstärkt die Wände.&lt;br/&gt;&lt;img image='Images\Upgrades\WallV2.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_WallV3">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Roof Protection&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds sandbags to the roof of the barracks.&lt;br/&gt;&lt;img image='Images\Upgrades\RoofProtection.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Dach Schutz&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Stellt Sandsäcke auf das Dach der Barracken.&lt;br/&gt;&lt;img image='Images\Upgrades\RoofProtection.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_WallV4">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Lighthouse Roof Protection&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds sandbags to the roof of the Lighthouse.&lt;br/&gt;&lt;img image='Images\Upgrades\LHRoofProtection.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Leuchtturm verstärkung&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Stellt Sandsäcke auf den Leuchtturm.&lt;br/&gt;&lt;img image='Images\Upgrades\LHRoofProtection.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_WallV5">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Medium Tower&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds a meduim tower to your base.&lt;br/&gt;&lt;img image='Images\Upgrades\MTower.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Aussichtsturm&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Fügt einen Aussichtsturm hinzu.&lt;br/&gt;&lt;img image='Images\Upgrades\MTower.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_AirU">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Build Radar Station&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Allows you to call in air support.&lt;br/&gt;&lt;img image='Images\Upgrades\RadarStation.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Radar Station Bauen&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Ermöglicht Luftunterstützung.&lt;br/&gt;&lt;img image='Images\Upgrades\RadarStation.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_PerkU">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Perk Terminal&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Enables you to access the perk terminal and use useful perks.&lt;img image='Images\Upgrades\Perk.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Fähigkeits Terminal&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Ermöglicht zugang zu nützlichen Fähigkeiten.&lt;img image='Images\Upgrades\Perk.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_Turret1">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Build .50 cal Turrets&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds .50 cal turrets to your base.&lt;br/&gt;&lt;img image='Images\Upgrades\Turrets50.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Kaliber 50 MGs&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Baut Kaliber 50 Maschinengewehre.&lt;br/&gt;&lt;img image='Images\Upgrades\Turrets50.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_Turret2">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Build AT Turrets&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds AT turrets to your base.&lt;br/&gt;&lt;img image='Images\Upgrades\TurretsAT.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Panzerabwehrgeschütze&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Baut Panzerabwehrgeschütze.&lt;br/&gt;&lt;img image='Images\Upgrades\TurretsAT.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_Turret3">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Build AA Turrets&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Adds AA turrets to your base.&lt;br/&gt;&lt;img image='Images\Upgrades\TurretsAA.jpg' size='11' shadow='false'/&gt;</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Luftabwehrgeschütze&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Baut Luftabwehrgeschütze.&lt;br/&gt;&lt;img image='Images\Upgrades\TurretsAA.jpg' size='11' shadow='false'/&gt;</German>
+		</Key>
+		<Key ID="STR_up_RaRTurret">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Turret Maintanance&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Rearms and repairs all turrets.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'&gt;Geschütz Wartung&lt;br/&gt;&lt;/t&gt;&lt;br/&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Repariert und munitioniert Geschütze auf.</German>
+		</Key>
+		<Key ID="STR_up_Supply">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Supply Drop&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Price: %1$</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Nachschub abwurf&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Preis: %1$</German>
+		</Key>
+		<Key ID="STR_up_SupStomper">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Stomper Drop&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Price: %1$</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;UGV Stomper abwurf&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Preis: %1$</German>
+		</Key>
+		<Key ID="STR_up_UAV">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;UAV&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Price: %1$</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Drohne&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Preis: %1$</German>
+		</Key>
+		<Key ID="STR_up_UAVStrike">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;MQ-12 Falcon&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Price: %1$</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;MQ-12 Falcon unterstützung&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Preis: %1$</German>
+		</Key>
+		<Key ID="STR_up_Mortar">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Mortar&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Price: %1$</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Mörser unterstützung&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Preis: %1$</German>
+		</Key>
+		<Key ID="STR_up_Artillery">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Artillery&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Price: %1$</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Artillerie unterstützung&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Preis: %1$</German>
+		</Key>
+		<Key ID="STR_up_CAS">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;CAS&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Price: %1$</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Luftnahunterstützung&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Preis: %1$</German>
+		</Key>
+		<Key ID="STR_up_PerkGear">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Gear Safe&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Disables the loss of gear after respawn.&lt;br/&gt;This perk will be lost after your death.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Ausrüstung behalten&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Du verlierst keine Ausrüstung nach dem Respawn.&lt;br/&gt;Die Fähigkeit ist nach deinem Tod weg.</German>
+		</Key>
+		<Key ID="STR_up_PerkPHeal">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Passive Heal&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Heals the player passively.&lt;br/&gt;This perk will be lost after your death.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Lebensregeneration&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Deine Wunden verheilen von allein.&lt;br/&gt;Die Fähigkeit ist nach deinem Tod weg.</German>
+		</Key>
+		<Key ID="STR_up_PerkMechanic">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Mechanic&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Allows the player to repair one vehicle (can be bought multiple times - Hotkey: 'H').&lt;br/&gt;This perk will be lost after your death.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Mechaniker&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Ermöglicht es ein Fahrzeug zu reparieren (kann mehrmals gekauft werden - Tastenkürzel: 'H').&lt;br/&gt;Die Fähigkeit ist nach deinem Tod weg.</German>
+		</Key>
+		<Key ID="STR_up_PerkFatigue">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Fatigue&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Price: %1$&lt;br/&gt;Description: Allows the player to run without fatigue for four minutes.&lt;br/&gt;This perk will be lost after your death.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='1.3'&gt;Ausdauer&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Preis: %1$&lt;br/&gt;Beschreibung: Macht dich für 4min zum Profisportler.&lt;br/&gt;Die Fähigkeit ist nach deinem Tod weg.</German>
+		</Key>
+	</Package>
+	
+	<Package name="Notifications">
+		<Key ID="STR_NOTF_ArsenalU">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Bought: Arsenal&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You should consider buying the Tier 1 Upgrade to make any use of it or put items in the ammobox and add them manually to the arsenal.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Gekauft: Arsenal&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Es sollte das Tier 1 Upgrade gekauft werden, um Nutzen aus dem Arsenal zu ziehen. Jedoch können Gegenstände manuell zum Arsenal hinzugefügt werden.</German>
+		</Key>
+		<Key ID="STR_NOTF_ArsenalSetSGear">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Spawngear set!&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You will now spawn with the new gear.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Standardausrüstung gespeichert!&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Du wirst von nun an mit dieser Ausrüstung spawnen.</German>
+		</Key>
+		<Key ID="STR_NOTF_ArsenalManualAdd">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Manual Arsenal&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You just added a couple of items to the arsenal.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Manuelle Erweiterung&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Soeben wurden neue Gegenstände in das Arsenal hinzugefügt.</German>
+		</Key>
+		<Key ID="STR_NOTF_Arsenal1">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Bought: Arsenal Tier 1&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You now have access to basic weaponry and items.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Gekauft: Arsenal Stufe 1&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Ihr habt nun den Zugang zu einfachen Waffen und Gegenständen.</German>
+		</Key>
+		<Key ID="STR_NOTF_Arsenal2">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Bought: Arsenal Tier 2&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You now have access to medium grade weaponry and items.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Gekauft: Arsenal Stufe 2&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Ihr habt nun den Zugang zu weiteren Waffen und Gegenständen.</German>
+		</Key>
+		<Key ID="STR_NOTF_Arsenal3">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Bought: Arsenal Tier 3&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You now have access to proper weaponry and vests.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Gekauft: Arsenal Stufe 3&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Ihr habt nun den Zugang zu weiteren Waffen und Westen.</German>
+		</Key>
+		<Key ID="STR_NOTF_Arsenal4">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Bought: Arsenal Tier 4&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You now have access to high grade weaponry.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Gekauft: Arsenal Stufe 4&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Ihr habt nun den Zugang zu weiteren Waffen und Westen.</German>
+		</Key>
+		<Key ID="STR_NOTF_Arsenal5">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Bought: Arsenal (Sniper)&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You now have access to heavy snipers.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Gekauft: Arsenal (Sniper)&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Ihr habt nun den Zugang zu schweren Scharfschützengewehren.</German>
+		</Key>
+		<Key ID="STR_NOTF_Arsenal6">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Bought: Arsenal (MG)&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You now have access to heavy weapons.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Gekauft: Arsenal (MG)&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Ihr habt nun den Zugang zu schweren Maschinengewehren.</German>
+		</Key>
+		<Key ID="STR_NOTF_Arsenal7">
+			<Original>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Bought: Arsenal (Spec Ops)&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You now have access to advanced equipment like mines and supressors.</Original>
+			<German>&lt;t color='#97FA21'&gt;&lt;t size='2.2'>Gekauft: Arsenal (Spec Ops)&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Ihr habt nun den Zugang zu Spec-Ops Ausrüstung.</German>
+		</Key>
+		<Key ID="STR_NOTF_Wallv1">
+			<Original>&lt;t color='#97FA21'>&lt;t size='2.2'>Built: Wall V1&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You are now a bit more secure.</Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>Gebaut: Wand (V1)&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Die Basis ist nun noch sicherer.</German>
+		</Key>
+		<Key ID="STR_NOTF_Wallv2">
+			<Original>&lt;t color='#97FA21'>&lt;t size='2.2'>Built: Wall V2&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You are now even more secure.</Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>Gebaut: Wand (V2)&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Die Basis ist nun noch sicherer.</German>
+		</Key>
+		<Key ID="STR_NOTF_Wallv3">
+			<Original>&lt;t color='#97FA21'>&lt;t size='2.2'>Built: Roof Protection&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You are now even more secure.</Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>Gebaut: Dachbefestigung&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Die Basis ist nun noch sicherer.</German>
+		</Key>
+		<Key ID="STR_NOTF_Wallv4">
+			<Original>&lt;t color='#97FA21'>&lt;t size='2.2'>Built: Lighthouse Roof Protection&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You are now even more secure.</Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>Gebaut: Leichtturm Dachbefestigung&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Die Basis ist nun noch sicherer.</German>
+		</Key>
+		<Key ID="STR_NOTF_Wallv5">
+			<Original>&lt;t color='#97FA21'>&lt;t size='2.2'>Built: Meduim Tower&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You are now even more secure.</Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>Gebaut: Turm&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Die Basis ist nun noch sicherer.</German>
+		</Key>
+		<Key ID="STR_NOTF_Wallv6">
+			<Original>&lt;t color='#97FA21'>&lt;t size='2.2'>Built: .50 cal Turrets&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!</Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>Gebaut: .50 cal Geschütz&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!</German>
+		</Key>
+		<Key ID="STR_NOTF_Wallv7">
+			<Original&lt;t color='#97FA21'>&lt;t size='2.2'>Built: AT Turrets&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!></Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>Gebaut: AT Geschütz&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!</German>
+		</Key>
+		<Key ID="STR_NOTF_Wallv8">
+			<Original>&lt;t color='#97FA21'>&lt;t size='2.2'>Built: AA Turrets&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!</Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>Gebaut: AA Geschütz&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!</German>
+		</Key>
+		<Key ID="STR_NOTF_AirU">
+			<Original>&lt;t color='#97FA21'>&lt;t size='2.2'>Built: Radar Station&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;Air support is now available.</Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>Gebaut: Radar Station&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Luftunterstützung ist nun verfügbar.</German>
+		</Key>
+		<Key ID="STR_NOTF_AirMark">
+			<Original>Mark the target location on the map by clicking on it.</Original>
+			<German>Markeire den Zielort durch einen Klick auf die Karte.</German>
+		</Key>
+		<Key ID="STR_NOTF_AirSupply">
+			<Original>&lt;t color='#97FA21'>&lt;t size='2.2'>Supply Drop Delivery&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;The supply drop is going to be dropped on the marked position.</Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>Versorgungskisten Abwurf&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Die Versorgungskiste wird an der markeirten Position abgeworfen.</German>
+		</Key>
+		<Key ID="STR_NOTF_AirUAVSTrike">
+			<Original>&lt;t color='#97FA21'>&lt;t size='2.2'>MQ-12 Falcon ready&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;You can now access the MQ-12 Falcon via a UAV-Terminal.</Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>MQ-12 Falcon verfügbar&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Der MQ-12 Falcon kann nun über ein UAV-Terminal gesteuert werden.</German>
+		</Key>
+		<Key ID="STR_NOTF_AirSupplyStomper">
+			<Original>&lt;t color='#97FA21'>&lt;t size='2.2'>UGV Stomper RCWS Delivery&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Congratulations!&lt;br/&gt;The UGV Stomper RCWS is going to be dropped on the marked position.</Original>
+			<German>&lt;t color='#97FA21'>&lt;t size='2.2'>UGV Stomper RCWS Abwurf&lt;br/&gt;&lt;/t&gt;&lt;/t&gt;Gratulation!&lt;br/&gt;Der UGV Stomper RCWS wird an der markierten Position abgeworfen.</German>
+		</Key>
+		<Key ID="STR_NOTF_AirSupplyIncoming">
+			<Original>Supply drop incoming.</Original>
+			<German>Der Helikopter ist auf dem Weg.</German>
+		</Key><Key ID="STR_NOTF_Air">
+			<Original></Original>
+			<German></German>
+		</Key>
+		<Key ID="STR_NOTF_AirStrikeIncoming">
+			<Original>Artillery on its way.</Original>
+			<German>Schüsse abgefeuert.</German>
+		</Key>
+		<Key ID="STR_NOTF_Air">
+			<Original></Original>
+			<German></German>
+		</Key><Key ID="STR_NOTF_Air">
+			<Original></Original>
+			<German></German>
+		</Key><Key ID="STR_NOTF_Air">
+			<Original></Original>
+			<German></German>
+		</Key>
+		
+	</Package>

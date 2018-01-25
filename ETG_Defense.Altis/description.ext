@@ -1,0 +1,84 @@
+#include "dialog\defines.hpp"
+#include "dialog\upgradeTerminal.hpp"
+#include "dialog\airsupportTerminal.hpp"
+#include "dialog\perkTerminal.hpp"
+
+#include "cfg\config.hpp"
+
+author = "Kellojo & Spikey";
+onLoadName = "ETG Wave Defense";
+onLoadMission = "Defend yourself against incoming waves of enemies. Upgrade your equipment and your base to survive as the waves become harder and harder to defeat.";
+loadScreen = "Images\Loadingscreen.jpg";
+respawndelay = 4;
+respawn = 3;
+respawnTemplates[] = {"Revive", "MenuPosition"};
+respawnOnStart = -1;
+respawnButton = 1;
+disabledAI = 1;
+overviewText = "Defend yourself against incoming waves of enemies.";
+overviewTextLocked = "Hm... This should not be locked - Have I lost the key for it?";
+enableDebugConsole = 2;
+
+corpseLimit = 10;
+corpseManagerMode = 1;
+corpseRemovalMinTime = 120;
+corpseRemovalMaxTime = 300;
+
+wreckManagerMode = 1;
+wreckLimit = 5;
+wreckRemovalMinTime = 120;
+wreckRemovalMaxTime = 300;
+minPlayerDistance = 50;
+
+
+class Header {
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 8;
+};
+
+class RscTitles {
+	#include "dialog\onKilledHud.hpp"
+	#include "dialog\MainHUD.hpp"
+	#include "dialog\End_Stats.hpp"
+};
+
+class CfgDebriefing {  
+	class loser {
+		title = "You Lost!";
+		subtitle = "";
+		description = "You have 0 tickets left.";
+		pictureBackground = "";
+		picture = "KIA";
+		pictureColor[] = {0.6,0.1,0.2,1};
+	};
+};
+
+class Params
+{
+	
+	class Tickets
+	{
+		title = "Tickets";
+		values[] = {10, 15, 20, 25, 30, 99999};
+		texts[] = {"10 Tickets","15 Tickets","20 Tickets","25 Tickets","30 Tickets","A lot of Tickets"};
+		default = 15;
+	};
+	
+	class TimeBetweenWaves
+	{
+		title = "Cooldown between Waves";
+		values[] = {5, 10, 20, 25, 30};
+		texts[] = {"5 Seconds","10 Seconds","20 Seconds","25 Seconds","30 Seconds"};
+		default = 10;
+	};
+	
+	#include "\a3\functions_f\Params\paramWeather.hpp"
+	#include "\a3\functions_f\Params\paramDaytimePeriod.hpp"
+	#include "\a3\Functions_F_MP_Mark\Params\paramTimeAcceleration.hpp"
+	#include "\a3\Functions_F_Heli\Params\paramViewDistance.hpp"
+	
+};
+
+
+

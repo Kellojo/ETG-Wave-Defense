@@ -13,7 +13,7 @@ Basically a COOP mission for you and three friends.
 - Upgradeable base (over 15 upgrades are available, including walls, automatic turrets, better weaponry and more)
 - Buyable perks (4 perks available)
 - Fire support can be called via the radio station (7 different types of support are available, including CAS runs and supply drops)
-- Your highscore is going to be safed on your computer and can always be accessed in game.
+- Your highscore is going to be saved on your computer and can always be accessed in game.
 - Dynamic endless waves of enemies
 - Hidden weapon stashes?
 
